@@ -8,9 +8,13 @@ module.exports = {
     extend: {
       colors: {
         'blanc': "#ffffff",
-        'violet': "#8D4ED8",
-        'gris-transparent': "rgba(255, 255, 255, 0.3);",
+        'Violet': "#8D4ED8",
+        'grisTransparent': "rgba(255, 255, 255, 0.3);",
         'gris-violet': "#F3EDFB"
+      },
+
+      Background: {
+        'gradient': 'linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%);',
       },
 
       'box-shadow': {

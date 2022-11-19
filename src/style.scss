@@ -29,3 +29,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.text-gradient {
+    background: linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+}
+
+.border-gradient {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%);
+}
