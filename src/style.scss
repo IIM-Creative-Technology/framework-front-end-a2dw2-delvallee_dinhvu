@@ -39,6 +39,8 @@
 }
 
 .border-gradient {
-    border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%);
+    background: linear-gradient(#F3EDFB, #F3EDFB) padding-box,
+    linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
 }

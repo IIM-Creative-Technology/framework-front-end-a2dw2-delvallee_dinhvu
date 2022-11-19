@@ -11,7 +11,7 @@ import Header from "./components/Header.vue";
 
     <div class="flex justify-center mt-[94px] mb-12">
         <section class="bg-gris-violet w-[844px] text-center py-[42px] rounded-[20px] max-sp:w-[343px]">
-            <h2 class="font-bold text-[30px] text-gradient max-sp:text-[24px]">C'est votre dernier mot ?</h2>
+            <h2 class="font-bold text-[30px] text-gradient max-sp:text-[24px] min-sp:text-black">C'est votre dernier mot ?</h2>
             <p class="mx-[218px] mt-[15px] mb-[26px] max-sp:m-0 max-sp:mt-[18px] max-sp:mb-6">Si vous n’avez pas trouvé ce que vous cherchez, dites-le nous.</p>
             <div class="flex justify-center">
                 <div class="flex gap-[23.5px] w-fit max-sp:block">
