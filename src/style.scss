@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 :root {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    @font-face {
+        font-family: 'poppins-regular';
+        src: url(/public/fonts/Poppins-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'poppins-semibold';
+        src: url(/public/fonts/Poppins-SemiBold.ttf);
+    }
+    
+    font-family: 'poppins-regular', Inter, Avenir, Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -15,3 +24,8 @@
     -webkit-text-size-adjust: 100%;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
