@@ -33,6 +33,9 @@ defineProps(['text'])
                     <a class="mr-[32px] max-sp:mr-[199px]" href="">Filtrer</a>
                     <img src="/img/arrow.svg" alt="arrow">
                 </div>
+                <!-- <select class="bg-gris-violet rounded-[30px] w-fit py-[17px] pl-[60px] pr-[36px]" name="filtrer" id="filtrer">
+                    <option value="filtrer">Filtrer</option>
+                </select> -->
             </div>    
         </div>
     </header>

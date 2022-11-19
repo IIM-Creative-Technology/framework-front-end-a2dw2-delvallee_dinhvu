@@ -8,6 +8,10 @@ import Header from "./components/Header.vue";
 
 <template>
     <Header></Header>
+
+    <section>
+        <h2>C'est votre dernier mot ?</h2>
+    </section>
 </template>
 
 <style scoped>
