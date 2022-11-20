@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'blanc': "#ffffff",
         'Violet': "#8D4ED8",
-        'grisTransparent': "rgba(255, 255, 255, 0.3);",
+        'gray_background': "rgba(255, 255, 255, 0.3)",
         'card_round': '#FF6A60',
         'gris-violet': "#F3EDFB"
       },
@@ -29,6 +29,7 @@ module.exports = {
       'fontFamily': {
         'regular': ['poppins-regular'],
         // 'semibold': ['poppins-semibold'],
+      },
       fontSize: {
         sm: '0.75rem',
         base: '1rem',
@@ -41,9 +42,7 @@ module.exports = {
         'twenty_space': '1.25rem',
         'thirty_space': '1.875rem',
         '76': '4.75rem',
-      },
-      colors: {
-        
+        'margin_cards_nav': '8.875rem'
       },
       borderRadius: {
         'card': '1.25rem',
@@ -52,3 +51,4 @@ module.exports = {
   },
   plugins: [],
 }
+
