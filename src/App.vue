@@ -9,6 +9,7 @@ import Card from "./components/Card.vue";
 import Card_emoji from "./components/card_emoji.vue";
 import image_card from "./components/image_card.vue";
 import Nbr_page from "./components/nbr_page.vue";
+import Footer from "./components/Footer.vue";
 
 </script>
 
@@ -16,7 +17,7 @@ import Nbr_page from "./components/nbr_page.vue";
     <Header></Header>
 
 
-  <section class=" mx-20 mt-margin_cards_nav">
+  <section class=" mx-20 mt-margin_cards_nav max-sp:mx-4 max-sp:mt-margin_cards_nav_responsive">
     <div class="flex justify-between mb-thirty_space">
       <h1 class="text-lg font-bold uppercase">Les plus populaires &#128293;</h1>
       <div class="flex items-center">
@@ -24,8 +25,8 @@ import Nbr_page from "./components/nbr_page.vue";
         <img src="/img/Vector_1.png" class="pl-twenty_space w-auto">
       </div>
     </div>
-    <div class="flex flex-wrap justify-between">
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5" >
+    <div class="flex flex-wrap justify-between max-sp:flex-nowrap max-sp:flex-col max-sp:items-center ">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5 max-sp:w-auto" >
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Management & Leadership" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -36,7 +37,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5  max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Vente" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -45,7 +46,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_2.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5 max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -55,7 +56,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card mb-5 max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -67,10 +68,10 @@ import Nbr_page from "./components/nbr_page.vue";
       </div>
     </div>
 
-    <h1 class="text-lg font-bold pt-76 uppercase mb-10">Toutes les formations &#128640;</h1>
+    <h1 class="text-lg font-bold mt-76 uppercase mb-10 max-sp:mt-margin_title max-sp:mb-6">Toutes les formations &#128640;</h1>
     
-    <div class="flex flex-wrap justify-between">
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5" >
+    <div class="flex flex-wrap justify-between max-sp:flex-nowrap max-sp:flex-col max-sp:items-center">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4" >
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Management & Leadership" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -81,7 +82,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Vente" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -90,7 +91,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_2.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -100,7 +101,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -110,7 +111,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_4.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5" >
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4" >
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Management & Leadership" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -121,7 +122,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Vente" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -130,7 +131,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_2.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -140,7 +141,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:w-auto max-sp:my-4">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -150,7 +151,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_4.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5" >
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:hidden" >
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Management & Leadership" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -161,7 +162,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Vente" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -170,7 +171,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_2.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -180,7 +181,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
       </div>
-      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5">
+      <div class=" flex flex-col-reverse shadow-lg shadow-slate-500/20 w-card_width h-card_height rounded-card my-5 max-sp:hidden">
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
@@ -207,7 +208,7 @@ import Nbr_page from "./components/nbr_page.vue";
         </section>
     </div>
 
-
+    <Footer text="Skillsday est un organisme nouvelle génération qui a pour mission de moderniser et digitaliser la formation en entreprise pour former, vraiment !"></Footer>
 
 </template>
 

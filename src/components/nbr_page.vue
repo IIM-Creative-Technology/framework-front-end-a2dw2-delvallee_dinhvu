@@ -5,11 +5,11 @@ defineProps(['number'])
 </script>
 
 <template>
-    <div class="flex items-center justify-end mt-9">
+    <div class="flex items-center justify-end mt-9 max-sp:justify-center">
         <div class="w-9 h-9 rounded-full border border-solid  border-card_round flex justify-center content-center" >
             <p class="text-2xl text-card_round">1</p>
         </div>
-        <div class="ml-1">
+        <div class="ml-3">
             <p class="text-base text-gray-500">2</p>
         </div>
         <div class="ml-4">
