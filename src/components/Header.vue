@@ -14,7 +14,7 @@ defineProps(['text'])
                 <li class="">A propos</li>
             </ul>
             <div class="flex items-center gap-x-6 ml-[132.5px] max-sp:hidden">
-                <button class="bg-gray_background_header text-blanc py-3 px-4 bg-blanc text-[16px] rounded-[30px] font-semibold">06 74 49 03 21</button>
+                <button class="bg-gray_background text-blanc py-3 px-4 bg-blanc text-[16px] rounded-[30px] font-semibold">06 74 49 03 21</button>
                 <button class="text-Violet py-3 px-4 bg-blanc text-[16px] rounded-[30px] font-semibold">Je prends contact</button>
             </div>
 

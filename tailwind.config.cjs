@@ -9,10 +9,11 @@ module.exports = {
       colors: {
         'blanc': "#ffffff",
         'Violet': "#8D4ED8",
-        'gray_background_header': "rgba(255, 255, 255, 0.3)",
+        'gray_background': "rgba(255, 255, 255, 0.3)",
         'card_round': '#FF6A60',
         'gris-violet': "#F3EDFB",
         'footer_background':'#0A0909',
+        'footer_mobile':'rgba(255, 255, 255, 0.18)'
       },
 
       Background: {
@@ -25,6 +26,7 @@ module.exports = {
 
       'screens': {
         sp: '375px', // sp = smartphone
+        dt:'1440px' // desktop
       },
 
       'fontFamily': {
