@@ -62,6 +62,7 @@ import Footer from "./components/Footer.vue";
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
+            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_4.png" />
@@ -97,6 +98,7 @@ import Footer from "./components/Footer.vue";
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
+            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
@@ -105,7 +107,6 @@ import Footer from "./components/Footer.vue";
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
@@ -117,7 +118,6 @@ import Footer from "./components/Footer.vue";
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
@@ -136,7 +136,6 @@ import Footer from "./components/Footer.vue";
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
@@ -145,7 +144,6 @@ import Footer from "./components/Footer.vue";
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
@@ -157,7 +155,6 @@ import Footer from "./components/Footer.vue";
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_1.png" />
@@ -176,7 +173,6 @@ import Footer from "./components/Footer.vue";
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="RH, QVT & diversité" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
         <image_card link_img="/img/Rectangle_3.png" />
@@ -185,7 +181,6 @@ import Footer from "./components/Footer.vue";
         <div class="ml-4">
           <Card title="Accueillir un.e collègue en situation de handicap" sub_text="Thématique 1" link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           <div class="flex flex-row">
-            <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
             <Card_emoji link_img="/img/7b34556817e126415d07d1b23a06c666.png" />
           </div>
         </div>
@@ -208,7 +203,7 @@ import Footer from "./components/Footer.vue";
         </section>
     </div>
 
-    <Footer text="Skillsday est un organisme nouvelle génération qui a pour mission de moderniser et digitaliser la formation en entreprise pour former, vraiment !"></Footer>
+    <Footer></Footer>
 
 </template>
 

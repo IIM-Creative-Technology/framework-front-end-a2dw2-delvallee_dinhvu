@@ -5,7 +5,7 @@ defineProps(['title', 'sub_text'])
 </script>
 
 <template>
-  <div class="pt-4">
+  <div class="pt-4 pr-4">
     <p class="text-sm">{{ sub_text }}</p>
     <p class="text-base font-bold">{{ title }}</p>
   </div>

@@ -37,6 +37,9 @@ module.exports = {
         xl: '1.25rem',
         'footer_title':'0.875rem'
       },
+      lineHeight: {
+        'footer': '1.125rem',
+      },
       spacing: {
         'card_width': '18.625rem',
         'card_height': '22.1875rem',
@@ -47,7 +50,8 @@ module.exports = {
         'margin_cards_nav': '8.875rem',
         'margin_cards_nav_responsive': '10.5rem',
         'margin_title':'4.5rem',
-        'margin_footer':'4.5625rem'
+        'margin_footer':'4.5625rem',
+        '42':'2.625rem'
       },
       borderRadius: {
         'card': '1.25rem',
