@@ -10,6 +10,7 @@ module.exports = {
         'blanc': "#ffffff",
         'Violet': "#8D4ED8",
         'grisTransparent': "rgba(255, 255, 255, 0.3);",
+        'card_round': '#FF6A60',
         'gris-violet': "#F3EDFB"
       },
 
@@ -28,6 +29,24 @@ module.exports = {
       'fontFamily': {
         'regular': ['poppins-regular'],
         // 'semibold': ['poppins-semibold'],
+      fontSize: {
+        sm: '0.75rem',
+        base: '1rem',
+        xl: '1.25rem',
+      },
+      spacing: {
+        'card_width': '18.625rem',
+        'card_height': '22.1875rem',
+        'card_img_height': '11.875rem',
+        'twenty_space': '1.25rem',
+        'thirty_space': '1.875rem',
+        '76': '4.75rem',
+      },
+      colors: {
+        
+      },
+      borderRadius: {
+        'card': '1.25rem',
       }
     },
   },
