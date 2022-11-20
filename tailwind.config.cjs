@@ -15,10 +15,15 @@ module.exports = {
         'card_width': '18.625rem',
         'card_height': '22.1875rem',
         'card_img_height': '11.875rem',
-        'margin_between' : '0.9375rem',
+        'twenty_space': '1.25rem',
+        'thirty_space': '1.875rem',
+        '76': '4.75rem',
       },
       colors: {
         'card_round': '#FF6A60',
+      },
+      borderRadius: {
+        'card': '1.25rem',
       }
     },
   },

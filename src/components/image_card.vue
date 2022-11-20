@@ -5,5 +5,5 @@ defineProps(['link_img'])
 </script>
 
 <template>
-    <img :src="link_img" class="h-card_img_height object-cover">
+    <img :src="link_img" class="h-card_img_height object-cover rounded-t-card">
 </template> 
